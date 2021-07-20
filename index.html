@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Tic Tac Toe</title>
+ </head>
+  <body>
+    <div id="score">
+      <h4 id="xScore">X score :</h4>
+      <h4 id="xVariableForScore">
+      <h4 id="oScore">O score :</h4>
+      <h4 id="oVariableForScore">
+    </div>
+    <button type="button" class="btn btn-info" name="resetScore" id="resetScore" onclick="resetScore();">Reset score</button>
+    <div class="container-out">
+      <div class="container-in">
+      <div class="table-container">
+          <p>Player <span id="player">X</span> your turn</p>
+          <table align="center">
+          <tr>
+              <td><div class="box"></div></td>
+              <td><div class="box"></div></td>
+              <td><div class="box"></div></td>
+          </tr>
+          <tr>
+              <td><div class="box"></div></td>
+              <td><div class="box"></div></td>
+              <td><div class="box"></div></td>
+          </tr>
+          <tr>
+              <td><div class="box"></div></td>
+              <td><div class="box"></div></td>
+              <td><div class="box"></div></td>
+          </tr>
+          </table>
+
+          <h2 id="message">Player <span id="winner"></span> Wins</h2>
+          <button id="reset">Reset</button>
+          <h5 id="draw">Draw! You are both masters at Tic Tac Toe</h5>
+      </div>
+      </div>
+  </div>
+
+
+   <!--Script for bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <!--Script for buttons -->
+  <script src="script.js"></script>
+  </body>
+</html>
